@@ -1,0 +1,46 @@
+<view class="containe">
+  <!--<view class="cone">-->
+  <view class="name">
+    {{hongkong.name}}详细介绍
+  </view>
+  <!--注册资料-->
+  <view class="tu">
+    <image class="tu_png" src="{{hongkong.process}}"></image>
+  </view>
+  <view class="tuu">
+    <image class="tuu_png" src="{{hongkong.data}}"></image>
+  </view>
+  <view class="zhuchen" bindtap="like">
+  
+            <view>立即办理</view> 
+          <!--<view class="conbut">
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+           </view>-->
+  </view>
+ 
+  <image class="sisan" src="../../images/4_3.png"></image>
+
+  <view class="ti_free">
+    <view class="name">常见问题</view>
+    <view class="ti_wen" wx:for="{{problem}}">
+      <view class="classone">{{item.question}}</view>
+      <view class="an">答:{{item.answer}}</view>
+     
+    
+    </view>
+  <view class="lijie">
+              <view>在线咨询</view> 
+          <view class="conbut">
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+           </view></view>
+  </view>
+
+</view>

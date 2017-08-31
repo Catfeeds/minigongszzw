@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="page">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item.photo}}" class="slide-image" width="100%" height="180" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+
+<view class="xian"></view>
+  <!--分类-->
+  <view class="flex-item" wx:for="{{dezhi}}" bindtap="feilei" data-id="{{index}}">
+    <image src="{{item.photo_x}}" class="flex-imgs"></image>
+  </view>
+</view>
+<view wx:for="{{bottom}}">
+  <view class="dib">由{{item.name}}提供服务</view>
+    <view class="dibb">如需帮助请联系：{{item.phone}}</view>
+</view>

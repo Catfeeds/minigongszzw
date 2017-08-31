@@ -1,0 +1,162 @@
+page{
+  font-family: '微软雅黑'
+}
+
+.boxx {
+  width: 100%;
+  padding: 30rpx;
+  border-bottom: 1px solid #f5f5f5;
+  padding-left: 0rpx;
+  background: #fff;
+  height: 275rpx;
+  
+}
+
+.boxx_right {
+  font-size: 30rpx;
+  border: 1px solid #ccc;
+  padding: 0 20rpx;
+  display: inline-block;
+  float: right;
+  margin-top: 10rpx;
+  margin-right: 20rpx;
+}
+
+.boxx_left {
+  display: inline-block;
+  font-size: 30rpx;
+}
+
+.boxx_con {
+  background: #f5f5f5;
+  padding: 21rpx;
+  letter-spacing: 3rpx;
+}
+
+.riqi {
+  font-size: 28rpx;
+  position: relative;
+  top: 12rpx;
+  padding-right: 20rpx;
+  text-align: left;
+  display: inline-block;
+  margin-left: 16rpx;
+}
+
+.png {
+  width: 20%;
+  display: inline-block;
+  line-height: 35rpx;
+  text-align: center;
+  padding-left: 28rpx;
+}
+
+.png image {
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.fss {
+  width: 64%;
+  font-size: 30rpx;
+  display: inline-block;
+  float: right;
+  margin-right: 25px;
+  line-height: 50rpx;
+    overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/*星星*/
+
+.l-evalbox {
+  height: 100rpx;
+  padding: 0 5%;
+  margin-top: 10rpx;
+  background: #fff;
+  line-height: 100rpx;
+
+}
+.sic{
+  display: flex;
+  align-items: center;
+}
+.l-evaltxt {
+  width: 120rpx;
+  display: inline-block;
+  font-size: 26rpx;
+  color: #ccc;
+}
+
+.l-evalist {
+  display: inline-block;
+  height: 53rpx;
+  line-height: 44rpx;
+}
+
+.l-evalist .icon {
+  z-index: 2;
+  width: 83rpx;
+  height: 43rpx;
+
+
+      background-image: url("http://img5.imgtn.bdimg.com/it/u=2842855052,3515519689&fm=26&gp=0.jpg");
+  background-size: 43rpx 43rpx;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #000
+}
+
+.l-evalist .cur {
+  z-index: 1;
+  width: 83rpx;
+  height: 43rpx;
+    background-image: url(" https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=676642173,3846669981&fm=117&gp=0.jpg");
+  background-size: 43rpx 43rpx;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.l-evalist .icon:last-child {
+  margin: 0;
+}
+
+
+/*.section{
+  text-align: center;
+}*/
+
+
+.drawer_attr_content {
+  padding: 20rpx;
+  height: 600rpx;
+  overflow-y: scroll;
+}
+button{
+position:relative;
+display:block;
+margin-left:auto;
+margin-right:auto;
+padding-left:14px;
+padding-right:14px;
+box-sizing:border-box;
+font-size:14px;
+text-align:center;
+text-decoration:none;
+line-height:2.55555556;
+border-radius:5px;
+-webkit-tap-highlight-color:transparent;
+overflow:hidden;
+color:#000000;
+background-color:#F8F8F8;
+width:43%;
+}
+ textarea{
+   border: 1px solid #ccc;
+   margin-bottom: 20rpx;
+   padding: 5rpx;
+   width: 100%;
+}

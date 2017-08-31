@@ -1,0 +1,774 @@
+[ 2017-08-29T09:46:40+08:00 ] ::1 /minigongszzw/index.php/Ht/Index/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.1804s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.660759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.660876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.040459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002245s ]
+
+[ 2017-08-29T09:46:41+08:00 ] ::1 /minigongszzw/index.php/Ht/Index/welcome.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0234s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0944s ]
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0517s ]
+SQL: SHOW COLUMNS FROM `lr_brand` [ RunTime:0.0296s ]
+SQL: SHOW COLUMNS FROM `lr_shangchang` [ RunTime:0.0629s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( del=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_user` WHERE ( del=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_product` WHERE ( del=0 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_brand` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_shangchang` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `price` FROM `lr_order` WHERE ( del=0 AND status>10 AND back!=2 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( del=0 AND addtime>=1503936000 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_user` WHERE ( del=0 AND addtime>=1503936000 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_product` WHERE ( del=0 AND addtime>=1503936000 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_brand` WHERE ( addtime>=1503936000 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_shangchang` WHERE ( addtime>=1503936000 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( del=0 AND status>10 AND back!=2 AND addtime>=1503936000 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\IndexController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_product` WHERE ( del=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_product` WHERE ( del=0 AND addtime>=1503936000 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( del=0 AND back!=2 AND addtime>=1501516800 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_user` WHERE ( del=0 AND addtime>=1501516800 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_product` WHERE ( del=0 AND addtime>=1501516800 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_brand` WHERE ( addtime>=1501516800 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_shangchang` WHERE ( addtime>=1501516800 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `price` FROM `lr_order` WHERE ( del=0 AND back!=2 AND addtime>=1501516800 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: thismonthpay F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\IndexController.class.php 第 74 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2017-08-29T09:47:26+08:00 ] ::1 /minigongszzw/index.php/Ht/HongKong/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `lr_hongkong` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_hongkong` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: page F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\HongKongController.class.php 第 13 行.
+SQL: SELECT * FROM `lr_hongkong` LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-08-29T09:48:05+08:00 ] ::1 /minigongszzw/index.php/Ht/HongKong/add.html?id=1
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+NOTIC: [8] Undefined index: submit F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\HongKongController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `lr_hongkong` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `lr_hongkong` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lr_hong_problem` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `lr_hong_problem` WHERE ( hong_id=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Undefined variable: pro_allinfo F:\phpStudy\WWW\minigongszzw\App\Runtime\Cache\Ht\ab0e97fd29e7bcef0ac172071afa85ab.php 第 104 行.
+NOTIC: [8] Undefined variable: pro_allinfo F:\phpStudy\WWW\minigongszzw\App\Runtime\Cache\Ht\ab0e97fd29e7bcef0ac172071afa85ab.php 第 104 行.
+NOTIC: [8] Undefined variable: pro_allinfo F:\phpStudy\WWW\minigongszzw\App\Runtime\Cache\Ht\ab0e97fd29e7bcef0ac172071afa85ab.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-08-29T09:48:31+08:00 ] ::1 /minigongszzw/index.php/Ht/HongKong/add.html?id=1
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+SQL: SHOW COLUMNS FROM `lr_hongkong` [ RunTime:0.0045s ]
+SQL: SELECT `photo_string` FROM `lr_hongkong` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: photo_string F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\HongKongController.class.php 第 157 行.
+SQL: UPDATE `lr_hongkong` SET `name`='啊啊啊啊',`price`='0',`server_type`='哈开始发挥双方',`server_intro`='风刀霜剑还有图教育',`sale_protected`='发广告后台人员' WHERE ( id=1 ) [ RunTime:0.0254s ]
+SQL: SHOW COLUMNS FROM `lr_hong_problem` [ RunTime:0.0027s ]
+SQL: DELETE FROM `lr_hong_problem` WHERE ( hong_id="1" ) [ RunTime:0.0085s ]
+SQL: INSERT INTO `lr_hong_problem` (`question`,`answer`,`hong_id`) VALUES ('社访问','他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首先想到的依旧是那个被称为家的地方。
+
+小时候
+
+家是一天的起点和一天的终点
+
+从来没想过离开家的时候会是怎么样
+
+那是，听到人家说想家只觉得可笑
+
+长大后
+
+家是梦里的起点和终点
+
+总想着回到家之后会是怎么样
+
+现在，听到人家说想家只觉得感同身受
+
+妈妈说：
+
+以前回到家书包一放就出去玩，叫都叫不回来；现在回到家背包一放，赶都赶不出去
+
+明天就可以回家了
+
+回到那个被称为家的地方
+
+回到那个被形容为温暖的地方
+
+回到那个被叫做避风港的地方
+他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首先想到的依旧是那个被称为家的地方。
+
+小时候
+
+家是一天的起点和一天的终点
+
+从来没想过离开家的时候会是怎么样
+
+那是，听到人家说想家只觉得可笑
+
+长大后
+
+家是梦里的起点和终点
+
+总想着回到家之后会是怎么样
+
+现在，听到人家说想家只觉得感同身受
+
+妈妈说：
+
+以前回到家书包一放就出去玩，叫都叫不回来；现在回到家背包一放，赶都赶不出去
+
+明天就可以回家了
+
+回到那个被称为家的地方
+
+回到那个被形容为温暖的地方
+
+回到那个被叫做避风港的地方
+他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首先想到的依旧是那个被称为家的地方。
+
+小时候
+
+家是一天的起点和一天的终点
+
+从来没想过离开家的时候会是怎么样
+
+那是，听到人家说想家只觉得可笑
+
+长大后
+
+家是梦里的起点和终点
+
+总想着回到家之后会是怎么样
+
+现在，听到人家说想家只觉得感同身受
+
+妈妈说：
+
+以前回到家书包一放就出去玩，叫都叫不回来；现在回到家背包一放，赶都赶不出去
+
+明天就可以回家了
+
+回到那个被称为家的地方
+
+回到那个被形容为温暖的地方
+
+回到那个被叫做避风港的地方
+他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首先想到的依旧是那个被称为家的地方。
+
+小时候
+
+家是一天的起点和一天的终点
+
+从来没想过离开家的时候会是怎么样
+
+那是，听到人家说想家只觉得可笑
+
+长大后
+
+家是梦里的起点和终点
+
+总想着回到家之后会是怎么样
+
+现在，听到人家说想家只觉得感同身受
+
+妈妈说：
+
+以前回到家书包一放就出去玩，叫都叫不回来；现在回到家背包一放，赶都赶不出去
+
+明天就可以回家了
+
+回到那个被称为家的地方
+
+回到那个被形容为温暖的地方
+
+回到那个被叫做避风港的地方
+他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首先想到的依旧是那个被称为家的地方。
+
+小时候
+
+家是一天的起点和一天的终点
+
+从来没想过离开家的时候会是怎么样
+
+那是，听到人家说想家只觉得可笑
+
+长大后
+
+家是梦里的起点和终点
+
+总想着回到家之后会是怎么样
+
+现在，听到人家说想家只觉得感同身受
+
+妈妈说：
+
+以前回到家书包一放就出去玩，叫都叫不回来；现在回到家背包一放，赶都赶不出去
+
+明天就可以回家了
+
+回到那个被称为家的地方
+
+回到那个被形容为温暖的地方
+
+回到那个被叫做避风港的地方123','1') [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001256s ]
+
+[ 2017-08-29T09:48:33+08:00 ] ::1 /minigongszzw/index.php/Ht/HongKong/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004049s ]
+SQL: SHOW COLUMNS FROM `lr_hongkong` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_hongkong` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\HongKongController.class.php 第 13 行.
+SQL: SELECT * FROM `lr_hongkong` LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002524s ]
+
+[ 2017-08-29T09:51:20+08:00 ] ::1 /minigongszzw/index.php/Ht/HongKong/add.html?id=1
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [8] Undefined index: submit F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\HongKongController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `lr_hongkong` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lr_hongkong` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lr_hong_problem` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `lr_hong_problem` WHERE ( hong_id=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Undefined variable: pro_allinfo F:\phpStudy\WWW\minigongszzw\App\Runtime\Cache\Ht\ab0e97fd29e7bcef0ac172071afa85ab.php 第 104 行.
+NOTIC: [8] Undefined variable: pro_allinfo F:\phpStudy\WWW\minigongszzw\App\Runtime\Cache\Ht\ab0e97fd29e7bcef0ac172071afa85ab.php 第 104 行.
+NOTIC: [8] Undefined variable: pro_allinfo F:\phpStudy\WWW\minigongszzw\App\Runtime\Cache\Ht\ab0e97fd29e7bcef0ac172071afa85ab.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2017-08-29T09:51:44+08:00 ] ::1 /minigongszzw/index.php/Ht/HongKong/add.html?id=1
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `lr_hongkong` [ RunTime:0.0026s ]
+SQL: SELECT `photo_string` FROM `lr_hongkong` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: photo_string F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\HongKongController.class.php 第 157 行.
+SQL: UPDATE `lr_hongkong` SET `name`='啊啊啊啊',`price`='0',`server_type`='哈开始发挥双方',`server_intro`='风刀霜剑还有图教育',`sale_protected`='发广告后台人员' WHERE ( id=1 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lr_hong_problem` [ RunTime:0.0032s ]
+SQL: DELETE FROM `lr_hong_problem` WHERE ( hong_id="1" ) [ RunTime:0.0004s ]
+SQL: INSERT INTO `lr_hong_problem` (`question`,`answer`,`hong_id`) VALUES ('社访问','222他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首先想到
+他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首先想到
+他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首先想到
+他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首先想到
+他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首先想到123','1') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-08-29T09:51:45+08:00 ] ::1 /minigongszzw/index.php/Ht/HongKong/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `lr_hongkong` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_hongkong` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: page F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\HongKongController.class.php 第 13 行.
+SQL: SELECT * FROM `lr_hongkong` LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2017-08-29T09:54:23+08:00 ] ::1 /minigongszzw/index.php/Ht/HongKong/add.html?id=1
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+NOTIC: [8] Undefined index: submit F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\HongKongController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `lr_hongkong` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `lr_hongkong` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lr_hong_problem` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `lr_hong_problem` WHERE ( hong_id=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined variable: pro_allinfo F:\phpStudy\WWW\minigongszzw\App\Runtime\Cache\Ht\ab0e97fd29e7bcef0ac172071afa85ab.php 第 104 行.
+NOTIC: [8] Undefined variable: pro_allinfo F:\phpStudy\WWW\minigongszzw\App\Runtime\Cache\Ht\ab0e97fd29e7bcef0ac172071afa85ab.php 第 104 行.
+NOTIC: [8] Undefined variable: pro_allinfo F:\phpStudy\WWW\minigongszzw\App\Runtime\Cache\Ht\ab0e97fd29e7bcef0ac172071afa85ab.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2017-08-29T09:54:40+08:00 ] ::1 /minigongszzw/index.php/Ht/HongKong/add.html?id=1
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `lr_hongkong` [ RunTime:0.0027s ]
+SQL: SELECT `photo_string` FROM `lr_hongkong` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: photo_string F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\HongKongController.class.php 第 157 行.
+SQL: UPDATE `lr_hongkong` SET `name`='啊啊啊啊',`price`='0',`server_type`='哈开始发挥双方',`server_intro`='风刀霜剑还有图教育',`sale_protected`='发广告后台人员' WHERE ( id=1 ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lr_hong_problem` [ RunTime:0.0026s ]
+SQL: DELETE FROM `lr_hong_problem` WHERE ( hong_id="1" ) [ RunTime:0.0004s ]
+SQL: INSERT INTO `lr_hong_problem` (`question`,`answer`,`hong_id`) VALUES ('社访问','222他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首
+222他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首
+222他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首
+222他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首
+222他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首
+222他说“有你在的日子我没羡慕过任何人”
+
+我说“我在家的日子我哪里也不想去”
+
+家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。
+
+无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；
+
+无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；
+
+无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首123132','1') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+
+[ 2017-08-29T09:54:41+08:00 ] ::1 /minigongszzw/index.php/Ht/HongKong/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `lr_hongkong` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_hongkong` LIMIT 1   [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: page F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\HongKongController.class.php 第 13 行.
+SQL: SELECT * FROM `lr_hongkong` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002032s ]
+
+[ 2017-08-29T09:56:40+08:00 ] ::1 /minigongszzw/index.php/Ht/Index/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.0035s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2017-08-29T09:56:40+08:00 ] ::1 /minigongszzw/index.php/Ht/Index/welcome.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `lr_brand` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `lr_shangchang` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( del=0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_user` WHERE ( del=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_product` WHERE ( del=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_brand` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_shangchang` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `price` FROM `lr_order` WHERE ( del=0 AND status>10 AND back!=2 )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( del=0 AND addtime>=1503936000 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_user` WHERE ( del=0 AND addtime>=1503936000 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_product` WHERE ( del=0 AND addtime>=1503936000 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_brand` WHERE ( addtime>=1503936000 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_shangchang` WHERE ( addtime>=1503936000 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( del=0 AND status>10 AND back!=2 AND addtime>=1503936000 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\IndexController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_product` WHERE ( del=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_product` WHERE ( del=0 AND addtime>=1503936000 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( del=0 AND back!=2 AND addtime>=1501516800 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_user` WHERE ( del=0 AND addtime>=1501516800 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_product` WHERE ( del=0 AND addtime>=1501516800 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_brand` WHERE ( addtime>=1501516800 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_shangchang` WHERE ( addtime>=1501516800 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `price` FROM `lr_order` WHERE ( del=0 AND back!=2 AND addtime>=1501516800 )  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: thismonthpay F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\IndexController.class.php 第 74 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2017-08-29T09:56:49+08:00 ] ::1 /minigongszzw/index.php/Ht/Company/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+SQL: SHOW COLUMNS FROM `lr_company_register` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_company_register` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: page F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\CompanyController.class.php 第 13 行.
+SQL: SELECT * FROM `lr_company_register` LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2017-08-29T09:56:51+08:00 ] ::1 /minigongszzw/index.php/Ht/Company/add.html?id=1
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minigongszzw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+NOTIC: [8] Undefined index: submit F:\phpStudy\WWW\minigongszzw\App\Ht\Controller\CompanyController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `lr_company_register` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `lr_company_register` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lr_company_adv` [ RunTime:0.0212s ]
+SQL: SELECT * FROM `lr_company_adv` WHERE ( comp_id=1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined variable: pro_allinfo F:\phpStudy\WWW\minigongszzw\App\Runtime\Cache\Ht\ad22b65d77894d321a4648b593197fe3.php 第 88 行.
+NOTIC: [8] Undefined variable: pro_allinfo F:\phpStudy\WWW\minigongszzw\App\Runtime\Cache\Ht\ad22b65d77894d321a4648b593197fe3.php 第 88 行.
+NOTIC: [8] Undefined variable: pro_allinfo F:\phpStudy\WWW\minigongszzw\App\Runtime\Cache\Ht\ad22b65d77894d321a4648b593197fe3.php 第 88 行.
+NOTIC: [8] Undefined variable: pro_allinfo F:\phpStudy\WWW\minigongszzw\App\Runtime\Cache\Ht\ad22b65d77894d321a4648b593197fe3.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001533s ]
+

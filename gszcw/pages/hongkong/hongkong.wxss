@@ -1,0 +1,132 @@
+.containe {
+  height: 100%;
+  font-family: "微软雅黑";
+}
+page{
+   background: #fcfcfc;
+}
+.cone  {
+    background: #f5f5f5;
+    padding-bottom: 50rpx
+}
+.tu{
+   width: 100%;
+   height: 300rpx;
+   
+}
+.tu image{
+   width: 100%;
+     height: 100%;
+}
+.tuu{
+   width: 100%;
+   height: 1500rpx;
+   
+}
+.tuu image{
+   width: 100%;
+     height: 100%;
+}
+.name {
+  width: 100%;
+  color: #b41616;
+  text-align: center;
+  padding: 40rpx 0;
+  overflow: hidden;
+ font-weight: 700;
+  font-size: 45rpx;
+ 
+
+}
+.zhuchen {
+  border: 2px solid #ff5722;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+font-weight:700; 
+  padding: 10rpx 20rpx;
+  border-radius:6rpx; 
+  font-size: 30rpx;
+  text-align: center;
+  color: #ff5722
+}
+.sisan{
+   width: 100%;
+   height: 50rpx;
+}
+.chaxun{
+  margin: 0 auto;
+  background: #cb676c;
+  text-align: center;
+  width: 200rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #f5f5f5;
+  font-size: 32rpx;
+  border-radius:10rpx;
+  margin-top: 20rpx; 
+}
+
+/*two*/
+
+.ftwo {
+  width: 33.3%;
+  float: left;
+  padding: 20rpx 0;
+  height: 200rpx;
+}
+
+.ftwo_img {
+  width: 150rpx;
+  height: 150rpx;
+  display: block;
+  margin: 0 auto;
+}
+/*常见问题*/
+.ti_free{
+   width: 100%;
+    margin-top: 20rpx;
+}
+.ti_one{
+  text-align: center
+}
+.ti_wen{
+  background: #fcfcfc;
+  padding-bottom: 50rpx;
+}
+.classone{
+  text-align: center;
+  background: #b41616;
+  color: #fff;
+  padding: 20rpx;
+  font-size: 30rpx;
+}
+.an{
+  font-size: 30rpx;
+  width: 93%;
+  padding: 0 30rpx;
+  line-height:50rpx;
+  margin: 50rpx 0;
+
+}
+.lijie{
+  text-align: center;
+  font-size: 35rpx;
+   background:#b41616;
+    padding: 15rpx 30px;
+   
+    border-radius: 10px 10px 10px 10px;
+    color: #fff;
+    width: 30%;
+    margin: 0 auto;
+    font-weight: 700;
+    margin-bottom: 130rpx;
+}
+.conbut {
+  float: left;
+  position: relative;
+  top: -35rpx;
+  opacity: 0;left:25rpx;
+
+}

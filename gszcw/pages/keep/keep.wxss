@@ -1,0 +1,66 @@
+.png {
+  width: 100%;
+  height: 231rpx;
+
+}
+page{
+     background: #fcfcfc;
+}
+.pngs{
+     width: 100%;
+  height: 400rpx;
+}
+.name {
+  width: 100%;
+  font-size: 45rpx;
+  font-weight: bold;
+  color: #ff5722;
+  text-align: center;
+  padding: 30rpx 0;
+  overflow: hidden;
+  padding-bottom: 10rpx;
+}
+.namep{
+    width: 100%;
+  font-size: 38rpx;
+  font-weight: bold;
+  text-align: center;
+  padding: 30rpx 0;
+  overflow: hidden;
+  padding-bottom: 0rpx;
+}
+.namee {
+  width: 100%;
+  font-size: 35rpx;
+  font-weight: bold;
+  text-align: center;
+  padding: 20rpx 0;
+  overflow: hidden;
+  padding-bottom: 20rpx;
+}
+
+.names {
+  width: 100%;
+  font-size: 28rpx;
+  /*font-weight: bold;*/
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: 10rpx;
+}
+
+.zilain {
+  border: 1px solid #ccc;
+  font-size: 32rpx;
+  width: 95%;
+}
+
+.u {
+  border-bottom: 1px solid #ccc;
+  width: 86%;
+  padding: 20rpx 50rpx;
+  text-align: center;
+}
+
+.fuwu {
+  width: 100%;
+}

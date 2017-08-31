@@ -1,0 +1,106 @@
+/*供求*/
+
+.tab {
+  flex-direction: row;
+  width: 100%;
+}
+
+.tab-left {
+  width: 100%;
+  line-height: 160%;
+  font-size: 34rpx;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.tab-left view {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  padding: 15rpx 0;
+  font-size: 28rpx;
+}
+
+.tab-left .active {
+  color: #f00;
+}
+
+.tab-right {
+  line-height: 100%;
+  /*border-bottom: 1rpx solid #e6e6e6;*/
+}
+
+.tab-right .right-item {
+  display: none;
+}
+
+.tab-right .right-item.active {
+  display: block;
+}
+
+.bottom {
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #e6e6e6;
+}
+
+.sj {
+  display: flex;
+}
+
+.sj_one {
+  flex: 0.3;
+}
+
+.sj_one image {
+  display: block;
+  border-radius: 50%;
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 auto;
+}
+
+.sj_two {
+  flex: 0.3;
+  font-size: 28rpx;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.sj_three {
+  display: flex;
+  align-items: center;
+  padding-left: 65rpx;
+}
+
+.sj_three image {
+  display: block;
+  border-radius: 50%;
+  width: 30rpx;
+  height: 30rpx;
+  padding: 0 10rpx;
+}
+
+.name {
+  font-size: 28rpx;
+  padding: 0 30rpx;
+  margin-top: 18rpx;
+}
+
+.sj_ri {
+  font-size: 28rpx;
+  text-align: right;
+  display: flex;
+  flex: 0.6;
+  align-items: center;
+  justify-content: center;
+}
+
+.sj_zi {
+  font-size: 24rpx;
+  margin-left: 76rpx;
+  color: #999;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10rpx 0;
+}

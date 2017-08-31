@@ -1,0 +1,1 @@
+a:6:{i:0;s:2:"id";i:1;s:7:"hong_id";i:2;s:8:"question";i:3;s:6:"answer";s:3:"_pk";s:2:"id";s:5:"_type";a:4:{s:2:"id";s:16:"int(10) unsigned";s:7:"hong_id";s:7:"int(11)";s:8:"question";s:12:"varchar(255)";s:6:"answer";s:12:"varchar(255)";}}

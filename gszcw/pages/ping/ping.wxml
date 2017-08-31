@@ -1,0 +1,54 @@
+<view class="cont">
+  <view class="tab-right">
+    <!--1-->
+    <!--待付款-->
+    <view class="right-item {{tabArr.curBdIndex=='0'? 'active' : ''}}">
+   
+
+<view class="bottom" wx:for="{{suggest}}">
+
+ <view class="sj">
+      <view class="sj_one">
+           <image src="{{userInfo.avatarUrl}}"></image>
+      </view>
+      <view class="sj_two">{{userInfo.nickName}}
+      </view>
+      <view class="sj_ri">
+          {{item.addtime}}
+      </view>
+ </view>
+
+<!--<view class="sj_zi">对“地球为什么是圆的问题回答”</view>-->
+
+<!-- <view class="sj_three">
+
+          <image src="../../images/xingg.png"></image>
+           <image src="../../images/xingg.png"></image>
+           <image src="../../images/xingg.png"></image>
+           <image src="../../images/xingg.png"></image>
+            <image src="../../images/xingg.png"></image>
+</view> -->
+<view class="name">
+   {{item.content}}
+</view>
+         
+    </view>
+    
+    </view>
+
+
+  </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

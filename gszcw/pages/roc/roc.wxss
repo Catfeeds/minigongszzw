@@ -1,0 +1,220 @@
+.contar {
+  font-size: 26rpx;
+  font-family: '微软雅黑';
+  padding-bottom: 50rpx;
+}
+
+.name {
+  width: 100%;
+  font-size: 38rpx;
+  font-weight: bold;
+  color: #ff5722;
+  text-align: center;
+  padding: 30rpx 0;
+  overflow: hidden;
+}
+
+.contar_a{
+   width: 100%;
+   height: 777rpx;
+}
+.contar_a image{
+   width: 100%;
+   height: 100%;
+}
+
+.vs {
+width:95%;
+margin-top:30px;
+display:flex;
+border:1px solid #fff;
+margin:19rpx;
+background:#f5f5f5;
+/*height:360rpx;*/
+
+}
+
+.gs {
+  width: 50%;
+  float: left;
+  margin-left: 10px;
+}
+
+.wzzzf {
+  width: 50%;
+
+}
+
+.zgzcgs {
+  width: 50%;
+}
+
+.ptit {
+  line-height: 90rpx;
+  font-size: 36rpx;
+  margin-bottom: 0px;
+  display: block;
+  text-align: center;
+  color: #ff5722;
+}
+
+.zgzcgs .ptit {
+  background: #f5f5f5;
+  color: #ff5722;
+}
+
+p {
+  display: block;
+}
+
+.psm {
+display:block;
+font-size:30rpx;
+margin:13rpx;
+background:#fff;
+width:92%;
+padding: 10rpx 0;
+margin-bottom: 30rpx;
+
+}
+
+.m p {
+  padding: 4rpx 10rpx;
+  color: #000;
+  font-size: 24rpx;
+}
+
+.s p {
+  color: #000;
+  padding: 10rpx 0;
+}
+
+
+/*刻章*/
+.ke{
+  width: 100%;
+   text-align: center;
+   font-size: 34rpx;
+   color: #ff5722;
+   margin-top: 50rpx;
+   margin-bottom: 50rpx;
+}
+.ke text{
+  padding: 10rpx 30rpx;
+  border:5rpx solid #ff5722;
+
+}
+
+.xiantiao{
+   width: 100%;
+   height: 30rpx;
+}
+
+.xiantiao image{
+   width: 100%;
+   height: 100%;
+}
+
+
+/*资讯*/
+
+.zixun {
+  border: 1px solid #cb676c;
+  float: right;
+  color: #cb676c;
+  line-height: 38rpx;
+  margin-top: 15rpx;
+  padding: 4rpx;
+}
+
+.wen {
+  font-size: 32rpx;
+  background: #f5f5f5
+}
+
+.wen_1 {
+text-align:left;
+padding:20rpx 25rpx;
+
+
+
+}
+
+.one {
+  width: 100%；;
+}
+
+.one_1 {
+width:37%;
+font-size:35rpx;
+line-height:40rp;
+border:2px solid #e6e6e6;
+padding:10rpx;
+text-align:center;
+margin-bottom:20rpx;
+float:left;
+margin-left:45rpx;
+
+}
+
+.one_2 {
+  font-size: 28rpx;
+  color: #ff5722;
+  border-bottom: 2px solid #e6e6e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one_img {
+  height: 120rpx;
+  width: 120rpx;
+  flex: 0.5;
+}
+.tou{
+   flex: 1;
+     overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  font-weight: 700
+}
+.jie{
+   font-size: 28rpx;
+   color: #999;
+   overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  height: 120rpx;
+}
+.zhuchen {
+  border: 1px solid #ff5722;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  color: #000;
+  padding: 10rpx 20rpx;
+  border-radius:6rpx; 
+  font-size: 28rpx;
+}
+.conbut {
+  float: left;
+  position: relative;
+  top: -35rpx;
+  opacity: 0;
+}
+.lijie {
+text-align:center;
+font-size:30rpx;
+padding:15rpx 20rpx;
+border:2px solid #f74803;
+border-radius:4rpx;
+color:#f74803;
+width:30%;
+margin:30rpx auto;
+
+}

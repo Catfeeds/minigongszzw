@@ -1,0 +1,49 @@
+{
+   "pages": [
+            "pages/index/index",
+      "pages/choose/choose",
+      "pages/ping/ping",
+       "pages/evaluate/evaluate",
+      "pages/user/user",
+         "pages/dingdan/dingdan",
+
+      "pages/detail/detail",
+      "pages/pay/pay",
+      "pages/planning/planning",
+      "pages/hongkong/hongkong",
+      "pages/ssg/ssg",
+      "pages/roc/roc",
+      "pages/keep/keep",
+      "pages/address/address",
+      "pages/logs/logs",
+      "pages/address2/address",
+      "pages/address2/user-address/user-address"
+   ],
+   "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#47bfe6",
+      "navigationBarTitleText": "公司注册网",
+      "navigationBarTextStyle": "white"
+   },
+   "tabBar": {
+      "color": "#000",
+      "selectedColor": "#47bfe6",
+      "borderStyle": "black",
+      "backgroundColor": "#ffffff",
+      "list": [
+         {
+            "pagePath": "pages/index/index",
+            "iconPath": "images/shou.png",
+            "selectedIconPath": "images/shouye.png",
+            "text": "首页"
+         },
+         {
+            "pagePath": "pages/user/user",
+            "iconPath": "images/geren.png",
+            "selectedIconPath": "images/ge.png",
+            "text": "个人中心"
+         }
+      ]
+   },
+   "debug": true
+}

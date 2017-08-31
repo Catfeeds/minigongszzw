@@ -1,0 +1,48 @@
+<view class="containe">
+<view class="tab-left" bindtap="tabFun">
+  <view class="{{tabArr.curHdIndex=='0'? 'active' : ''}}" id="tab-hd01" data-id="0">小规模地址</view>
+  <text style="color:#ccc">|</text>
+  <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id="tab-hd02" data-id="1">一般纳税人地址</view>
+</view>
+ 
+<view class="tab-right" >
+  <view class="right-item {{tabArr.curBdIndex=='0'? 'active' : ''}}">
+  <view class="cont">
+    <navigator class="pr" hover-class="changestyle" wx:for="{{affiliate_small}}">
+      <image class="cont_image" src="{{item.photo_x}}"></image>
+      <view class="title">{{item.name}} </view>
+      <view class="titles" wx:if="{{item.price != 0}}">￥{{item.price}} </view>
+      <view class="titles" wx:else>￥面议 </view>
+
+
+      <view class="tit" bindtap="li" data-aid="{{item.id}}">
+      
+          <view>立刻购买</view> 
+
+        </view>
+    </navigator>
+  </view>
+  </view>
+
+  <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">
+      <view class="cont">
+    <navigator class="pr" hover-class="changestyle" wx:for="{{affiliate}}">
+      <image class="cont_image" src="{{item.photo_x}}"></image>
+      <view class="title">{{item.name}} </view>
+       <view class="titles" wx:if="{{item.price != 0}}">￥{{item.price}} </view>
+      <view class="titles" wx:else>￥面议 </view>
+      <view class="tit" bindtap="li" data-aid="{{item.id}}">        
+        <view>立刻购买</view> 
+
+    </view>
+    </navigator>
+  </view>
+
+  </view>
+
+  </view>
+
+
+
+
+</view>

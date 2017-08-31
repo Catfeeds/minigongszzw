@@ -1,0 +1,77 @@
+<view class="cont">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{company.img_arr}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="a">
+    <view class="a_a">{{company.name}}</view>
+    <view class="a_b" wx:if="{{company.price != 0}}">价格:￥{{company.price}}</view>
+    <view class="a_b" wx:else>价格：面议</view>
+  </view>
+
+  <view class="xian"></view>
+
+  <view class="b">
+    <text class="b_a">服务类型</text>
+    <view class="b_b">{{company.server_type}}</view>
+  </view>
+
+  <view class="xian"></view>
+
+
+  <view class="tab-left" bindtap="tabFun">
+    <view class="{{tabArr.curHdIndex=='0'? 'active' : ''}}" id="tab-hd01" data-id="0">服务介绍</view>
+    <!--<text style="color:#ccc">|</text>-->
+    <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id="tab-hd02" data-id="1">售后保障</view>
+  </view>
+
+  <view class="tab-right">
+
+
+    <view class="right-item {{tabArr.curBdIndex=='0'? 'active' : ''}}">
+      <view class="cont">
+        <navigator class="pr" url="../product/detail?productId={{item.id}}" hover-class="changestyle">
+
+
+          <view class="tit">{{company.server_intro}}</view>
+        </navigator>
+      </view>
+    </view>
+
+    <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">
+      <view class="cont">
+        <navigator class="pr" url="../product/detail?productId={{item.id}}" hover-class="changestyle">
+
+          <view class="tit">{{company.sale_protected}}</view>
+        </navigator>
+      </view>
+    </view>
+
+  </view>
+
+
+  <view class="c">
+
+    <view class="c_a">
+      <view class="conbut">
+        <contact-button></contact-button>
+        <contact-button></contact-button>
+        <contact-button></contact-button>
+        <contact-button></contact-button>
+      </view>
+      在线咨询
+    </view>
+
+    <view class="c_b" bindtap="calling">立即办理</view>
+
+  </view>
+
+
+
+
+
+</view>

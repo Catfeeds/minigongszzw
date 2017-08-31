@@ -1,0 +1,113 @@
+<view class="contar">
+
+  <view class="name" wx:if="{{company.process}}">
+    {{company.name}}流程
+  </view>
+  <view class="contar_a">
+    <image src="{{company.process}}"></image>
+  </view>
+
+
+  <view class="name">
+    正规企业优势vs无资质企业
+  </view>
+  <view class="vs">
+    <!--左边-->
+    <view class="zgzcgs">
+      <p class="ptit">正规注册公司</p>
+      <p class="psm m">
+        <p> {{company.zheng}}</p>
+      </p>
+    </view>
+    <!--右边-->
+    <view class="wzzzf">
+      <p class="ptit">无资质作坊</p>
+      <p class="psm m">
+        <p> {{company.fan}}</p>
+      </p>
+    </view>
+  </view>
+  <!--了解刻章-->
+
+  <view class="lijie">
+    <view>了解正规刻章</view>
+    
+    <view class="conbut">
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+    </view>
+
+  </view>
+
+  <view class="xiantiao">
+
+    <image src="../../images/1_11.png"></image>
+
+  </view>
+  <!--分割线-->
+  <view class="name" wx:if="{{company.problem}}">
+    公司注册常见问题
+  </view>
+
+  <!--资讯-->
+  <view class="wen">
+    <view class="wen_1">
+      {{company.problem}}
+
+    </view>
+  <view class="lijie">
+    <view>在线咨询</view>
+    <view class="conbut">
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+    </view>
+  </view>
+
+    <view class="xiantiao">
+
+      <image src="../../images/1_11.png"></image>
+
+    </view>
+  </view>
+
+  <!--分割线-->
+  <view class="name" wx:if="{{adv}}">
+    公司注册为什么越快越好?
+  </view>
+
+  <view class="one">
+
+    <view class="one_1" wx:for="{{adv}}">
+
+      <view class="one_2">
+
+        <image class="one_img" src="../../images/i.png"></image>
+        <text class="tou">{{item.title}}</text> 
+      </view>
+
+      <view style="margin-top:20rpx" class="jie">
+        {{item.content}}
+      </view>
+
+      <view class="zhuchen" bindtap="zhu">
+      
+     <view>立刻注册</view> 
+      <!--<view class="conbut">
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+    </view>-->
+      
+      </view>
+
+    </view>
+
+  </view>
+
+</view>

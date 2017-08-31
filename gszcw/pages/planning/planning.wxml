@@ -1,0 +1,106 @@
+<view class="cont">
+  <image class="a_png" src="../../images/9_1.png" mode="scaleToFill"></image>
+  <view class="a_a">劳动创业补贴标准</view>
+  <view class="b">{{subsidy.standard}}</view>
+  <view class="a_a">创业企业社会保险补贴</view>
+  <view class="b">
+    <text>{{subsidy.subsidies}}</text>
+    <!-- <text>1. 本市户籍登记失业人员;</text>
+    <text>2. 本市户籍农村劳动力;</text>
+    <text>3. 本市城镇复员转业军人。</text>
+    <text>(二)补贴标准：上述人员创办初创企业领取营业执照正常开展经营，并按规定参加社会保险22的，依照“先缴后补”原则，按照养老、失业、工伤、医疗和生育保险缴费基数下限和缴费比例，给予累计不超过3年的社会保险补贴(个人缴费部分由个人承担)。 科技项目补贴：
+    </text>
+    <text>高新技术企业认定：认定通过受理20万通过100万</text> -->
+  </view>
+
+  <view class="lijie">
+    <view>了解更多</view>
+    <view class="conbut">
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+         <contact-button></contact-button>
+      </view>
+</view>
+  <image class="sisan" src="../../images/4_3.png"></image>
+  <view wx:for="{{more}}">
+  <view class="d">{{item.title}}</view>
+  <view class="b">
+    <text>{{item.content}}</text>
+    <!-- <text>一、高新技术企业认定的意义 1、经认定的高新技术企业，可享受国家、省、市有关优惠政策；获得国家、省、市各级政府部门的科研经费支持和财政拨款。 2、经认定的高新技术企业，可享受国家税收优惠政策，实现了由区域政策向产业政策的转移，扶持和鼓励了高新技术企业的发展。 3、高新技术企业的认定，将有效地提高企业的科技研发管理水平，重视科技研发，提高企业核心竞争力，能为企业在市场竞争中提供有力的资质，极大地提升企业品牌形象。无论是广告宣传还是产品招投标工程，都将有非常大的帮助。 4、高新技术企业不仅能减免企业所得税，无论对于何种企业都是一个难得的国家级的资质认证，对依靠科技立身的企业更是不可或缺的硬招牌，其品牌影响力等同于中国名牌产品、中国驰名商标、国家免检产品。
+      二、高新技术企业认定的好处 1.所得税率优惠。按新的高新技术企业管理办法认定的高新技术企业享受15%的优惠所得税率。 2.广州的企业可享受政府合计120万元的资金支持。 3.符合条件申请认定国家火炬计划重点高新技术企业 4.研发费用加计扣除；符合条件的技术转让所得免征、减征企业所得税；高新技术企业固定资产加速折旧。 5.各地政府对高新技术企业的奖励及投资支持 三、认定条件 1.企业注册>1年； 2.大专人员> 30%； 3.研发人员> 10%； 4.研发费用：小于5000万>6%；5000万-2亿>4%；
+          2亿以上 >3%。 5.高新技术收入占总收入>60%。 6.核心技术>70分 四.对知识产权的要求 核心技术（100分）  1.核心自主知识产权（30分）      1项以上发明或6项以上实用新型、软件著作权等   2.科技成果转化能力（30分）： 4项以上/年 3.研发的组织管理水平（20分） 4.近三年成长性指标（20分）      总资产增长率35%         销售增长率35%  五．申请高新技术企业所需资料 1、《高新技术企业认定申请书》 2、企业营业执照副本、税务登记证书（复印件）。
+      3、近三个会计年度研究开发费用（实际年限不足三年的按实际经营年限）及近一个会计年度高新技术产品（服务）收入专项审计报告。 4、近三个会计年度的财务报表（含资产负债表、利润及利润分配表、现金流量表，实际年限不足三年的按实际经营年限）。 5、技术创新活动证明材料，包括知识产权证书、独占许可协议、生产批文，新产品或新技术证明（查新）材料、产品质量检验报告，省级以上科技计划立项证明，以及其他相关证明材料                高新技术企业培育：通过奖励30-300万
+    </text> -->
+
+  </view>
+
+
+  <view class="lijie">   
+   <view>了解更多</view>
+    <view class="conbut">
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+         <contact-button></contact-button>
+      </view>
+</view>
+  <image class="sisan" src="../../images/4_3.png"></image>
+</view>
+
+
+  <!-- <view class="d">高新技术企业培育入库</view>
+  <view class="b">
+    <text>高企入库培育.小巨人申报条件和资助奖励资料</text>
+    <text> 一.省高企.培育入库 1.申报单位资格---- （1）企业主营业务或产品属于国家支持的高新技术领域； （2）企业注册满一年以上，具有独立法人资格； （3）企业近3年内通过自主研发.受让.受赠.并购等方式.对其主要产品（服务）的核心技术拥有自主知识产权； 2.人员条件---- （1）具有大专以上学历科技人员和研发人员分别达到15%以上和5%； 3.财务条件---- （1）近俩个会计年度的研发费用总额占销售总额比例不低于3%；其中.企业在广东省境内发生的研究开发费用总额不低于60%； （2）高新技术产品（服务)收入占当年总收入不低于40%
+      （3）以设立研究开发辅助核算帐或专帐。 3.资助方式 （1）纳入省培养库的企业补助期限不超过三年 （2）单位企业年度补助资金不低于10万且不超过500万
+
+
+    </text>
+
+  </view>
+
+
+  <view class="lijie">    
+  <view>了解更多</view>
+    <view class="conbut">
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+         <contact-button></contact-button>
+     </view>
+     </view>
+  <image class="sisan" src="../../images/4_3.png"></image>
+
+  <view class="d">科技创新小巨人</view>
+  <view class="b">
+    <text>高企入库培育.小巨人申报条件和资助奖励资料</text>
+    <text> 1.资助对象：科技创新中小企业 2.政策意图：培育具有较高成长或发展潜力巨大的科技创新中小企业 3.资助方式：事后补助，又市区两级政府安一定比例出资60万元（已获高企认定不在享受补贴） 4.拨款方式：自入库年度起三年按照3:2:1比例分年度拨发 5.小巨人申报条件（满足以下七点条件） （1）企业主营业务属于国家高新技术领域；或者形成自主创新模式，取得核心竞争力 （2）企业注册满一年以上，去、具有独立法人资格（非高新技术企业） （3）企业拥有核心技术申请的自主知识产权(专利或软著） （4）大专以上科技人员占当年职工总数的15%以上:其中研发人员占企业当年职工总数的5%以上；
+      （5）近两个年度的会计年度研发费用总额占销售总额不低于3%（其中，企业在广东境内发生的研发费用总额不低于60% (6)高新技术产品（服务）收入不低于当年总收入的40%：或企业年度销售收入增长40%以上 （7）具有一定的研究开发组织过了水平及规范的财务管理，以设立研发辅助核算帐或专帐
+
+    </text>
+
+  </view>
+
+
+  <view class="lijie" bindtap="">
+
+    <view>了解更多</view>
+    <view class="conbut">
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+      <contact-button></contact-button>
+         <contact-button></contact-button>
+    </view>
+  </view> -->
+
+</view>
